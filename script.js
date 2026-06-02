@@ -54,12 +54,12 @@ function resetGame() {
 
 function formatChoice(choice) {
     if (choice === 'rock') {
-        return 'Rock';
+        return 'ROCK';
     }
 
     if (choice === 'paper') {
-        return 'Paper';
+        return 'PAPER';
     }
 
-    return 'Scissors';
+    return 'SCISSORS';
 }
